@@ -1,6 +1,6 @@
 /*
-Don't forget editing "User_Setup.h" in the TFT_eSPI.h library.
-↑If you can't understand, copy "User_Setup.h" in this folder to "\libraries\TFT_eSPI\".
+Don't forget editing "User_Setup.h" and "User_Setup_Select.h" in the TFT_eSPI.h library.
+↑If you can't know how to edit it, use them in this solusion folder.(You should make a backup.)
 Now, I'm using ESP32 DevModule and ili9341.
 <MY SNS>
 Instagram https://www.instagram.com/tellurnoid/
