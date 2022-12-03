@@ -9,11 +9,7 @@ My Instagram https://www.instagram.com/tellurnoid/
 
 TFT_eSPI myGLCD = TFT_eSPI();       // Invoke custom library
 
-int startPx;
-int startPy;
-void setup()
-{
-// Setup the LCD
+void setup(){
   myGLCD.init();
   myGLCD.setRotation(3);
   myGLCD.fillScreen(TFT_WHITE);
@@ -27,6 +23,7 @@ void setup()
   myGLCD.drawCentreString("Let's see functions!", 160, 119,2);
   delay(1500);
 }
+
 int y;
 int radius = 1;
 void loop(){
