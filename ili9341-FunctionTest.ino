@@ -2,7 +2,6 @@
 Don't forget editing "User_Setup.h" in the TFT_eSPI.h library.
 My Instagram https://www.instagram.com/tellurnoid/
 */
-
 #include "SPI.h"
 #include "TFT_eSPI.h"
 #include "xbm.h"   
@@ -26,6 +25,7 @@ void setup()
   myGLCD.setTextColor(TFT_WHITE,TFT_DARKGREY);
   myGLCD.drawCentreString("Tellurnoid", 160, 93,2);
   myGLCD.drawCentreString("Let's see functions!", 160, 119,2);
+  delay(1500);
 }
 int y;
 int radius = 1;
@@ -69,3 +69,5 @@ for(int i=0; i<12; i++){myGLCD.drawLine(0, i*20, 320, i*20,TFT_DARKGREEN);}
 for(int i=0; i<16; i++){myGLCD.drawLine(i*20, 0, i*20, 240,TFT_DARKGREEN);}
                         myGLCD.drawLine(319, 0, 319, 240,TFT_DARKGREEN);
 }
+
+
